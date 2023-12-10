@@ -1,0 +1,16 @@
+/* Reset de márgenes y rellenos */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hacer imágenes y videos responsivos */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Agregar box-sizing: border-box para mejorar el modelo de caja */
+*, *::before, *::after {
+    box-sizing: border-box;
+}

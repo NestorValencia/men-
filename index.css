@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Krypto Medium";
+  src: url("/fonts/MonaspaceKrypton-Medium.otf") format("opentype");
+}
+
+body {
+  background-color: #333333;
+  font-family: "Krypto Medium";
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  background-color: #A0A0A0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal; /* Por defecto, el texto no está en negrita */
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+a:hover {
+  transform: scale(
+    1.3
+  ); /* Escala el texto al 120% del tamaño original en el hover */
+  font-weight: bold; /* Puedes cambiar el peso de la fuente al mismo tiempo si lo deseas */
+  color: aqua;
+}
+
+#logo{
+    height: 64px;
+}
